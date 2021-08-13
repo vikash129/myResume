@@ -99,6 +99,8 @@ body .container .side.left .info .title {
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 body .container .side.left .info ul {
   position: relative;
@@ -127,6 +129,10 @@ body .container .side.right {
 }
 body .container .side.right .about {
   margin-bottom: 30px;
+}
+body .container .side.right .about .title {
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
 body .container .side.right .about.profile .title {
   color: red;
@@ -158,7 +164,7 @@ body .container .side.right .about.skills .websites ol {
   list-style-type: upper-latin;
 }
 body .container .side.right .about.skills .websites ol .language {
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 6px;
   display: flex;
   align-items: center;
@@ -194,19 +200,18 @@ body .container .side.right .about.skills .websites ol .box.head h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body .container .side.right .about.skills .websites ol .box .website {
-  font-size: 20px;
-  color: #fa570c;
+  font-size: 1.2rem;
+  color: aqua;
   text-transform: capitalize;
 }
 body .container .side.right .about.skills .websites ol .box a {
-  font-size: 16px;
   text-decoration: underline;
   color: #b8b8e9;
   font-family: serif;
 }
 body .container .side.right .about.skills .websites ol .box a:hover {
   color: red;
-  font-size: 18px;
+  font-size: 1.4rem;
 }
 body .container .side.right .about.interest {
   color: #dbe16a;
@@ -221,9 +226,6 @@ body .container .side.right .about.interest ul {
 body .container .side.right .about.interest .title {
   color: blueviolet;
 }
-body .container .side.right .about .title {
-  margin-bottom: 15px;
-}
 body .container .side.right hr {
   color: green;
   margin: 15px 0;
@@ -234,16 +236,12 @@ body .container .side.right hr {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
-  body .container .side.right {
-    background-color: #4dc74d;
-  }
   body .container .side.right .about .box .skills {
     grid-template-columns: repeat(1, 1fr);
   }
+  body .container .side.right .about.interest ul {
+    flex-direction: column;
+  }
 }
-/* to center a object  */
-/* position : absolute
- left : 50%
- transform : translate(-50X */
 
 /*# sourceMappingURL=style.css.map */
