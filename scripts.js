@@ -2,8 +2,7 @@ const projects = document.getElementById('projects')
 
 async function fetchapi() {
 
-    const response = await fetch('http://127.0.0.1:5500/projects.json')
-    const data = await response.json()
+    const response = await fetch('https://vikash129.github.io/cssResume/projects.json')
     return data
 }
 
