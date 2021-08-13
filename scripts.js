@@ -2,9 +2,14 @@ const projects = document.getElementById('projects')
 
 async function fetchapi() {
 
+    try{
     const response = await fetch('https://vikash129.github.io/cssResume/projects.json')
     const data = await response.json()
     return data
+    }
+    catch(e){
+        console.log(e)
+    }
 }
 
 function createHtml(language) {
