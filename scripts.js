@@ -3,6 +3,7 @@ const projects = document.getElementById('projects')
 async function fetchapi() {
 
     const response = await fetch('https://vikash129.github.io/cssResume/projects.json')
+    const data = await response.json()
     return data
 }
 
