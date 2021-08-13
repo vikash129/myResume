@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #5fa7da;
+}
+body .container {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  min-height: 100px;
+  background-color: #e9ebec;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  box-shadow: 0 35px 45px #2fffa5;
+}
+body .container .side {
+  position: relative;
+  padding: 40px;
+}
+body .container .side.left {
+  background-color: #f2faf8;
+}
+body .container .side.left .profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+body .container .side.left .profileText .imgBox {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+body .container .side.left .profileText .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .container .side.left .profileText h2 {
+  color: blue;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+body .container .side.left .profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: black;
+}
+body .container .side.left .info {
+  margin: 20px 0;
+}
+body .container .side.left .info.contact .title {
+  color: red;
+}
+body .container .side.left .info.education .title {
+  color: #071305;
+}
+body .container .side.left .info.language .title {
+  color: #0d1bb6;
+}
+body .container .side.left .info.language ul li {
+  display: grid;
+  grid-template-columns: 1fr 4fr 7fr;
+}
+body .container .side.left .info.language ul li .percentBox {
+  background-color: #20c118;
+  height: 6px;
+  position: relative;
+  width: 100%;
+}
+body .container .side.left .info.language ul li .percentBox .percent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
+body .container .side.left .info .title {
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+body .container .side.left .info ul {
+  position: relative;
+}
+body .container .side.left .info ul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0;
+  display: flex;
+}
+body .container .side.left .info ul li .icon {
+  color: blue;
+  width: 30px;
+  font-size: 18px;
+}
+body .container .side.left .info ul li .text {
+  font-weight: 300;
+  font-size: 16px;
+}
+body .container .side.left hr {
+  background-color: blue;
+}
+body .container .side.right {
+  background-color: #252125;
+  color: white;
+}
+body .container .side.right .about {
+  margin-bottom: 30px;
+}
+body .container .side.right .about.profile .title {
+  color: red;
+}
+body .container .side.right .about.profile p {
+  color: #d6d6e9;
+  font-family: cursive;
+}
+body .container .side.right .about.experience .title {
+  color: blue;
+}
+body .container .side.right .about.experience .box .year {
+  margin: 10px 0;
+}
+body .container .side.right .about.experience .box .text {
+  font-family: cursive;
+}
+body .container .side.right .about.experience .box .text h3 {
+  color: #15ff00;
+  margin: 5px 0;
+}
+body .container .side.right .about.skills .title {
+  color: #ff00dd;
+}
+body .container .side.right .about.skills .websites ol {
+  padding-bottom: 20px;
+  border-bottom: 1px solid olive;
+  margin-bottom: 10px;
+  list-style-type: upper-latin;
+}
+body .container .side.right .about.skills .websites ol .language {
+  font-size: 30px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+body .container .side.right .about.skills .websites ol .language h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #db776a;
+  font-family: cursive;
+}
+body .container .side.right .about.skills .websites ol .language i {
+  margin-right: 10px;
+}
+body .container .side.right .about.skills .websites ol .language i.fa-python {
+  color: yellow;
+}
+body .container .side.right .about.skills .websites ol .language i.fa-react {
+  color: blue;
+}
+body .container .side.right .about.skills .websites ol .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  margin: 10px 0;
+}
+body .container .side.right .about.skills .websites ol .box.head {
+  color: chartreuse;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+body .container .side.right .about.skills .websites ol .box.head h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body .container .side.right .about.skills .websites ol .box .website {
+  font-size: 20px;
+  color: #fa570c;
+  text-transform: capitalize;
+}
+body .container .side.right .about.skills .websites ol .box a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #b8b8e9;
+  font-family: serif;
+}
+body .container .side.right .about.skills .websites ol .box a:hover {
+  color: red;
+  font-size: 18px;
+}
+body .container .side.right .about.interest {
+  color: #dbe16a;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+body .container .side.right .about.interest ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: georgian;
+}
+body .container .side.right .about.interest .title {
+  color: blueviolet;
+}
+body .container .side.right .about .title {
+  margin-bottom: 15px;
+}
+body .container .side.right hr {
+  color: green;
+  margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  body .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  body .container .side.right {
+    background-color: #4dc74d;
+  }
+  body .container .side.right .about .box .skills {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* to center a object  */
+/* position : absolute
+ left : 50%
+ transform : translate(-50X */
+
+/*# sourceMappingURL=style.css.map */

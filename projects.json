@@ -1,0 +1,128 @@
+{
+  "projects": {
+    "django": [
+      {
+        "name": "django",
+        "icon": "fab fa-python"
+      },
+      {
+        "id": 1,
+        "project": "Text Changer",
+        "sourceCode": "https://github.com/vikash129/TextUtils-django-",
+        "preview": "https://text-change.herokuapp.com"
+      },
+      {
+        "id": 2,
+        "project": "VkGalaxy Eshop",
+        "sourceCode": "https://github.com/vikash129/VkGalaxyStore-django",
+        "preview": "https://vkgalaxy.herokuapp.com"
+      },
+      {
+        "id": 3,
+        "project": "IPL Prediction",
+        "sourceCode": "https://github.com/vikash129/ipl-pred",
+        "preview": "https://vk-ipl-pred.herokuapp.com"
+      },
+
+      {
+        "id": 4,
+        "project": "VkChats Online",
+        "sourceCode": "https://github.com/vikash129/ipl-pred",
+        "preview": null
+      },
+      {
+        "id": 5,
+        "project": "Vk TicTacToe",
+        "sourceCode": "https://github.com/vikash129/ipl-pred",
+        "preview": null
+      },
+      {
+        "id": 6,
+        "project": "Vk Todo Exercise",
+        "sourceCode": null,
+        "preview":null
+      },
+      {
+        "id": 7,
+        "project": "Ecommerce Shop",
+        "sourceCode": "https://github.com/vikash129/ipl-pred",
+        "preview":null
+      }
+    ],
+
+    "react": [
+      {
+        "name": "react",
+        "icon": "fab fa-react"
+      },
+      {
+        "id": 1,
+        "project": "React-foodies",
+        "sourceCode": "https://github.com/vikash129/react-foodie",
+        "preview": "https://react-foodfinder.netlify.app"
+      },
+      {
+        "id": 2,
+        "project": "Eshop Online",
+        "sourceCode": "https://github.com/vikash129/reactShop",
+        "preview": "https://react-eshopworld.netlify.com"
+      },
+      {
+        "id": 3,
+        "project": "Flappy Bird",
+        "sourceCode": null,
+        "preview": null
+      },
+      {
+        "id": 4,
+        "project": "SnakeMania",
+        "sourceCode": "https://github.com/vikash129/react-snakes",
+        "preview": "https://reactsnakes.netlify.app"
+      },
+      {
+        "id": 5,
+        "project": "Covid Tracker",
+        "sourceCode": "https://github.com/vikash129/react-covidKill",
+        "preview": "https://covidinf.netlify.app"
+      },
+      {
+        "id": 6,
+        "project": "ReactFlix Streamer",
+        "sourceCode": "https://github.com/vikash129/ReactFlixMovies",
+        "preview": "https://vkreactflix.netlify.app"
+      },
+      {
+        "id": 7,
+        "project": "react-TicTacToe",
+        "sourceCode": "https://github.com/vikash129/react-tictactoe",
+        "preview": "https://vktictak.netlify.app"
+      },
+      {
+        "id": 8,
+        "project": "Todo List",
+        "sourceCode": "https://github.com/vikash129/react-todo",
+        "preview": "https://vikash129.github.io/"
+      },
+      {
+        "id": 9,
+        "project": "Weather Tracker",
+        "sourceCode": "https://github.com/vikash129/react-weatherApp",
+        "preview": "https://vikash129.github.io/react-weatherApp/"
+      },
+      {
+        "id": 10,
+        "project": "News Blogs",
+        "sourceCode": "https://github.com/vikash129/react-NewsBlog",
+        "preview": "https://vknewsblog.netlify.app"
+      },
+      {
+        "id": 11,
+        "project": "ReactTube videos",
+        "sourceCode": "https://github.com/vikash129/reactTube",
+        "preview": "https://reacttubevideos.firebaseapp.com"
+      }
+      
+
+    ]
+  }
+}
