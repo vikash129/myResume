@@ -4,7 +4,7 @@ async function fetchapi() {
 
 
     try{
-    const response = await fetch('https://vikash129.github.io/cssResume/projects.json')
+    const response = await fetch('https://vikash129.github.io/myResume/projects.json')
 
     const data = await response.json()
     return data
