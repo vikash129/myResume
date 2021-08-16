@@ -200,7 +200,7 @@ body .container .side.right .about.skills .websites ol .box.head h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body .container .side.right .about.skills .websites ol .box .website {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: aqua;
   text-transform: capitalize;
 }
@@ -211,7 +211,7 @@ body .container .side.right .about.skills .websites ol .box a {
 }
 body .container .side.right .about.skills .websites ol .box a:hover {
   color: red;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 body .container .side.right .about.interest {
   color: #dbe16a;
